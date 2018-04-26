@@ -12,21 +12,24 @@
 
 \mobile{0647086244}
 \email{etienne.g.girard@gmail.com}
-%\homepage{www.posquit0.com}
-\github{aWildElephant}
+\github{github: aWildElephant}
+
+% Décommenter pour avoir une magnifique photo de moi
+%\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+%\photo{moi.jpeg}
 
 \begin{document}
 
-% optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Etienne Girard~~~·~~~Curriculum Vitae}
-  {\thepage}
-  
+  {Curriculum Vitae}
+  {Etienne Girard}
+
+\input{resume.tex}
 \input{experiences.tex}
+\input{formation.tex}
+\input{skill.tex}
   
 \end{document}
