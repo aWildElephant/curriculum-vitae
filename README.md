@@ -1,0 +1,1 @@
+My curriculum vitae, using the awesome Awesome CV template (https://github.com/posquit0/Awesome-CV).
